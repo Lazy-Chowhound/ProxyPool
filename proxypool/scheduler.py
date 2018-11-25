@@ -3,14 +3,7 @@ from proxypool.tester import Tester
 from proxypool.getter import Getter
 from proxypool.api import app
 from multiprocessing import Process
-
-TESTER_CYCLE = 20
-GETTER_CYCLE = 20
-TESTER_ENABLED = True
-API_ENABLED = True
-GETTER_ENABLED =True
-API_HOST = '0.0.0.0'
-API_PORT = 5555
+from proxypool.setting import TESTER_CYCLE,GETTER_CYCLE,API_PORT,API_HOST,API_ENABLED,TESTER_ENABLED,GETTER_ENABLED
 
 
 class Scheduler():

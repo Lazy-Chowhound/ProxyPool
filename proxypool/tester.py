@@ -8,9 +8,7 @@ except:
     from aiohttp import ClientProxyConnectionError as ProxyConnectionError
 
 from proxypool.db import RedisClient
-
-TEST_URL = 'http://www.baidu.com'
-BATCH_TEST_SIZE = 100
+from proxypool.setting import TEST_URL, BATCH_TEST_SIZE
 
 
 class Tester(object):

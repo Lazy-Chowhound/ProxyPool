@@ -1,8 +1,7 @@
 from proxypool.db import RedisClient
 from proxypool.crawler import Crawler
 import sys
-
-POOL_UPPER_THRESHOLD = 10000
+from proxypool.setting import POOL_UPPER_THRESHOLD
 
 
 class Getter():
